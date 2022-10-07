@@ -1,0 +1,54 @@
+.blogbox {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.blogsbox img {
+  margin-top: 13px;
+  height: 215px;
+  width: 258px;
+  margin-bottom: 10px;
+}
+
+.blogsbox .date {
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  display: inline;
+  padding: 5px;
+}
+
+.blogsbox a {
+  text-decoration: none;
+  color: black;
+}
+.blogsbox a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.blogsbox a h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .blogsbox img {
+    margin-top: 13px;
+    height: 180px;
+    width: 215px;
+  }
+
+  .blogsbox a h4 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .blogbox {
+    margin-top: 100px;
+    margin-bottom: 65px;
+  }
+}

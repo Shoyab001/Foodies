@@ -1,0 +1,38 @@
+.videoarea {
+  background-image: url("../../public/videoarea.jpg");
+  background-size: cover;
+  height: 470px;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+.play-btn img {
+  width: 80px;
+  margin-top: 133px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .videoarea {
+    margin-top: 430px;
+  }
+}
+
+@media (max-width: 425px) {
+  .videoarea {
+    margin-top: 800px;
+    margin-bottom: 00px;
+  }
+
+  .align-items-start {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 325px){
+.videoarea {
+    margin-top: 880px;
+}
+}
