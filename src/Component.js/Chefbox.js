@@ -1,5 +1,5 @@
 import React from "react";
-import './Chefbox.css';
+import "./Chefbox.css";
 
 class Chefbox extends React.Component {
   render() {
@@ -15,28 +15,40 @@ class Chefbox extends React.Component {
           <div className="container chefsbox">
             <div className="row align-items-start">
               <div className="col-sm-12 col-md-6 col-lg-3">
-                <img src="https://preview.colorlib.com/theme/restaurant/img/xt1.jpg.pagespeed.ic.qX1rtRc1Gw.webp" />
+                <img
+                  style={{ width: "200px", borderRadius: "10px" }}
+                  src="https://i.pinimg.com/originals/1b/1d/c3/1b1dc304d72f89b38ab18c0f3be893fb.jpg"
+                />
                 <h4>Ethel Davis</h4>
                 <p>Managing Director (Sales)</p>
                 <br />
                 <br />
               </div>
               <div className="col-sm-12 col-md-6 col-lg-3">
-                <img src="https://preview.colorlib.com/theme/restaurant/img/xt2.jpg.pagespeed.ic.rNbYD-7Vni.webp" />
+                <img
+                  style={{ width: "200px", borderRadius: "10px", border: '3px solid gray' }}
+                  src="https://thumbs.dreamstime.com/b/smiling-chef-man-uniform-23326629.jpg"
+                />
                 <h4>Rodney Cooper</h4>
                 <p>Creative Art Director (Project)</p>
                 <br />
                 <br />
               </div>
               <div className="col-sm-12 col-md-6 col-lg-3">
-                <img src="https://preview.colorlib.com/theme/restaurant/img/xt3.jpg.pagespeed.ic.hgrhnPVH61.webp" />
+                <img
+                  style={{ width: "200px", borderRadius: "10px" }}
+                  src="https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hlZiUyMHdvbWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                />
                 <h4>Dora Walker</h4>
                 <p>Senior Core Developer</p>
                 <br />
                 <br />
               </div>
               <div className="col-sm-12 col-md-6 col-lg-3">
-                <img src="https://preview.colorlib.com/theme/restaurant/img/xt4.jpg.pagespeed.ic.pO1rXfLDtc.webp" />
+                <img
+                  style={{ width: "200px", borderRadius: "10px" }}
+                  src="https://i.pngimg.me/thumb/f/720/xframe_141028.jpg"
+                />
                 <h4>Lena Keller</h4>
                 <p>Creative Content Developer</p>
                 <br />

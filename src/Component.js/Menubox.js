@@ -7,7 +7,7 @@ class Menubox extends React.Component {
       <section className="menubox">
         <section className="toprated container">
           <div className="headbox">
-            <h1>Our Featured Food Menus</h1>
+            <h1>Our Featured Food Menu</h1>
             <p>Who are in extremely love with eco friendly system.</p>
           </div>
         </section>

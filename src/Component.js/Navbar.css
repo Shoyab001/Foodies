@@ -1,3 +1,20 @@
+.sticky {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  margin: 0px;
+  top: 0;
+  box-shadow: 0px 7px 6px #acaaaa;
+  opacity: 1;
+  top: 0;
+}
+
 .imglogo {
   width: 60px;
 }
@@ -97,5 +114,5 @@
     --bs-dropdown-min-width: 4rem;
     --bs-dropdown-border-radius: 0;
     --bs-dropdown-border-width: 0px;
-}
+  }
 }

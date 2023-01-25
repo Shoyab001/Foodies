@@ -22,7 +22,7 @@ class Blogbox extends React.Component {
           <div className="container blogsbox">
             <div className="row align-items-start">
               <div className="col-sm-12 col-md-6 col-lg-3">
-                <img src="https://preview.colorlib.com/theme/restaurant/img/xb1.jpg.pagespeed.ic.0P_xQXrf9x.webp" />
+                <img src="https://www.foodnetwork.com/content/dam/images/food/fullset/2019/1/11/0/KC1912_Bacon-and-Egg-Fried-Rice_s4x3.jpg" />
                 <br />
                 <p className="date">10 JAN. 2022</p>
                 <a href="#">
@@ -33,7 +33,7 @@ class Blogbox extends React.Component {
                 </p>
               </div>
               <div className="col-sm-12 col-md-6 col-lg-3 ">
-                <img src="https://preview.colorlib.com/theme/restaurant/img/xb2.jpg.pagespeed.ic.PHj8rPHl3r.webp" />
+                <img src="https://www.seriouseats.com/thmb/_UpZJf-wE0Vr5jNOpBPPC_FyzcA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/anda-bhurji-spicy-indian-scrambled-eggs-recipe-step-06-b861178e6c5546559667743aa64a187f.jpg" />
                 <br />
                 <p className="date">10 JAN. 2022</p>
                 <a href="#">
@@ -44,7 +44,7 @@ class Blogbox extends React.Component {
                 </p>
               </div>
               <div className="col-sm-12 col-md-6 col-lg-3">
-                <img src="https://preview.colorlib.com/theme/restaurant/img/xb3.jpg.pagespeed.ic.VKjUqmqCmg.webp" />
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/62/37/d2/magic-foods.jpg" />
                 <br />
                 <p className="date">10 JAN. 2022</p>
                 <a href="#">
@@ -55,7 +55,7 @@ class Blogbox extends React.Component {
                 </p>
               </div>
               <div className="col-sm-12 col-md-6 col-lg-3">
-                <img src="https://preview.colorlib.com/theme/restaurant/img/xb4.jpg.pagespeed.ic.JIK-qO-Pb5.webp" />
+                <img src="https://www.deputy.com/uploads/2018/10/The-Most-Popular-Menu-Items-That-You-should-Consider-Adding-to-Your-Restaurant_Content-image1-min-1024x569.png" />
                 <br />
                 <p className="date">10 JAN. 2022</p>
                 <a href="#">

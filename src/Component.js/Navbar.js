@@ -1,11 +1,35 @@
 import React from "react";
 import "./Navbar.css";
 
-class Navbar extends React.Component {
-  state = {};
-  render() {
+const Navbar=()=> {
+  const dish=(e)=>{
+    e.preventDefault()
+    window.scrollTo(650,650)
+  }
+
+  const Menu=(e)=>{
+    e.preventDefault()
+    window.scrollTo(2200,2200)
+  }
+
+  const Chef=(e)=>{
+    e.preventDefault()
+    window.scrollTo(2850,2850)
+  }
+
+  const Blog=(e)=>{
+    e.preventDefault()
+    window.scrollTo(3540,3540)
+  }
+
+  const Contact=(e)=>{
+    e.preventDefault()
+    window.scrollTo(4000,4000)
+  }
+ 
+  
     return (
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg sticky">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src="./mlogo.png" alt="" className="imglogo" />
@@ -33,48 +57,30 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mainhead" href="#">
+                <a className="nav-link mainhead" href="" onClick={(e)=>{dish(e)}}>
                   Dish
                 </a>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link mainhead" href="#">
-                  Chief
+                <a className="nav-link mainhead" href="" onClick={(e)=>{Menu(e)}}>
+                  Menu
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mainhead" href="#">
+                <a className="nav-link mainhead" href="#" onClick={(e)=>{Chef(e)}}>
+                  Chef
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link mainhead" href="#" onClick={(e)=>{Blog(e)}}>
                   Blog
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mainhead" href="#">
+                <a className="nav-link mainhead" href="#" onClick={(e)=>{Contact(e)}}>
                   Contact
                 </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle mainhead"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Pages
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item mainhead" href="#">
-                      Generic
-                    </a>
-                  </li>
-                  <hr />
-                  <li>
-                    <a className="dropdown-item mainhead" href="#">
-                      Elements
-                    </a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </div>
@@ -82,6 +88,6 @@ class Navbar extends React.Component {
       </nav>
     );
   }
-}
+
 
 export default Navbar;

@@ -9,22 +9,22 @@ class FeaturesArea extends React.Component {
         <div className="container featuresbox">
           <div className="row align-items-start">
             <div className="col-sm-12 col-lg-3 col-md-6">
-              <img src="https://preview.colorlib.com/theme/restaurant/img/xf1.png.pagespeed.ic.SUm0vW2vCs.png" />
+              <img style={{width:'35px' }} src="http://cdn.onlinewebfonts.com/svg/img_498787.png" />
               <h4>Refreshing Breakfast</h4>
               <p>Lorem ipsum dolor sit ametcons ecteturadipis icing elit.</p>
             </div>
             <div className="col-sm-12 col-lg-3 col-md-6">
-              <img src="https://preview.colorlib.com/theme/restaurant/img/xf2.png.pagespeed.ic.e8iZqf6_yS.png" />
+            <img style={{width:'40px' }} src="https://cdn-icons-png.flaticon.com/512/2082/2082035.png" />
               <h4>Awesome Lunch</h4>
               <p>Lorem ipsum dolor sit ametcons ecteturadipis icing elit.</p>
             </div>
             <div className="col-sm-12 col-lg-3 col-md-6">
-              <img src="https://preview.colorlib.com/theme/restaurant/img/xf3.png.pagespeed.ic.6KTxwTA2kI.png" />
+            <img style={{width:'40px' }} src="https://static.thenounproject.com/png/33767-200.png" />
               <h4>Soothing Dinner</h4>
               <p>Lorem ipsum dolor sit ametcons ecteturadipis icing elit.</p>
             </div>
             <div className=" col-sm-12 col-lg-3 col-md-6">
-              <img src="https://preview.colorlib.com/theme/restaurant/img/xf4.png.pagespeed.ic._fYoargax-.png" />
+            <img style={{width:'40px' }} src="https://cdn-icons-png.flaticon.com/512/1051/1051012.png" />
               <h4>Rich Quality Buffet</h4>
               <p>Lorem ipsum dolor sit ametcons ecteturadipis icing elit.</p>
             </div>
